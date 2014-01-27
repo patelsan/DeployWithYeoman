@@ -23,10 +23,19 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Gruntfile.js" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="Gruntfile.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Gruntfile.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="405" column="32" selection-start="10151" selection-end="10151" vertical-scroll-proportion="0.48681542" vertical-offset="5835" max-vertical-offset="7200">
+            <state line="408" column="40" selection-start="10209" selection-end="10209" vertical-scroll-proportion="-10.961538" vertical-offset="5835" max-vertical-offset="7200">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=".gitignore" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="5" column="5" selection-start="61" selection-end="61" vertical-scroll-proportion="0.13513513" vertical-offset="0" max-vertical-offset="555">
               <folding />
             </state>
           </provider>
@@ -102,13 +111,14 @@
         <option value="$PROJECT_DIR$/node_modules/grunt-newer/gruntfile.js" />
         <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/Gruntfile.js" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="9" />
     <option name="y" value="22" />
-    <option name="width" value="723" />
+    <option name="width" value="1083" />
     <option name="height" value="988" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
@@ -228,15 +238,15 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="9" y="22" width="723" height="988" extended-state="0" />
-    <editor active="false" />
+    <frame x="9" y="22" width="1083" height="988" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3236607" sideWeight="0.49946752" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3236607" sideWeight="0.49946752" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32924107" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.4116809" sideWeight="0.649943" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.27212805" sideWeight="0.649943" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.42857143" sideWeight="0.5005325" order="0" side_tool="true" content_ui="tabs" />
@@ -422,11 +432,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="39" selection-start="56" selection-end="56" vertical-scroll-proportion="0.1626898" vertical-offset="0" max-vertical-offset="461" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/node_modules/grunt-newer/gruntfile.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="77" column="0" selection-start="1496" selection-end="1496" vertical-scroll-proportion="0.7818182" vertical-offset="725" max-vertical-offset="1275">
@@ -457,7 +462,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Gruntfile.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="405" column="32" selection-start="10151" selection-end="10151" vertical-scroll-proportion="0.48681542" vertical-offset="5835" max-vertical-offset="7200">
+        <state line="408" column="40" selection-start="10209" selection-end="10209" vertical-scroll-proportion="-10.961538" vertical-offset="5835" max-vertical-offset="7200">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="5" selection-start="61" selection-end="61" vertical-scroll-proportion="0.13513513" vertical-offset="0" max-vertical-offset="555">
           <folding />
         </state>
       </provider>
