@@ -15,6 +15,7 @@ module.exports = function (grunt) {
   // Time how long tasks take. Can help when optimizing build times
   require('time-grunt')(grunt);
 
+  var pkg = require('./package.json');
   // Define the configuration for all the tasks
   grunt.initConfig({
 
@@ -392,6 +393,21 @@ module.exports = function (grunt) {
         }
     },
 
+    buildcontrol: {
+        options: {
+            dir: 'dist',
+            commit: true,
+            push: true,
+            message: 'Built %sourceName% from commit %sourceCommit% on branch %sourceBranch%'
+        },
+        heroku: {
+            options: {
+                remote: 'git@heroku.com:yoapp2.git',
+                branch: 'master',
+                tag: pkg.version
+            }
+        }
+    }
   });
 
 
@@ -453,4 +469,6 @@ module.exports = function (grunt) {
   grunt.registerTask('protractor-firefox', ['protractor:firefox']);
 
   grunt.registerTask('protractor-e2e', ['concurrent:protractor_test']);
+
+  grunt.loadNpmTasks('grunt-build-control');
 };

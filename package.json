@@ -1,6 +1,6 @@
 {
   "name": "testapp1",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "dependencies": {},
   "devDependencies": {
     "grunt": "~0.4.1",
@@ -42,7 +42,8 @@
     "karma": "~0.10.9",
     "karma-ng-html2js-preprocessor": "~0.1.0",
     "protractor": "~0.17.0",
-    "grunt-protractor-runner": "~0.2.1"
+    "grunt-protractor-runner": "~0.2.1",
+    "grunt-build-control": "~0.1.2"
   },
   "engines": {
     "node": ">=0.8.0"
